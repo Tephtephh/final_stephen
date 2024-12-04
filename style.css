@@ -1,0 +1,239 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a53e0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.links a {
+    margin: 0 20px;
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #6c63ff;
+}
+
+/* Home Section */
+#home {
+    height: 100vh;
+    background-color: #6c63ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture img {
+    border-radius: 50%;
+    max-width: 250px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.picture img:hover {
+    transform: scale(1.1);
+}
+
+.text h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.left img {
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.right {
+    width: 45%;
+}
+
+.topic {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #6c63ff;
+}
+
+.right p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.skills-details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.topic {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.per {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #6c63ff;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Home Section */
+#home {
+    height: 100vh;
+    background-color: #6c63ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.picture img {
+    border-radius: 50%;
+    max-width: 250px;  /* Set a max-width */
+    width: 100%;       /* Ensure image scales properly */
+    height: auto;      /* Keep the aspect ratio */
+    margin-bottom: 20px;
+    object-fit: cover; /* Ensures the image covers the space without distorting */
+    transition: transform 0.3s ease;
+}
+
+.picture img:hover {
+    transform: scale(1.1);
+}
